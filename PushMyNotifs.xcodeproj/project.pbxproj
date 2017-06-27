@@ -610,7 +610,7 @@
 				DEVELOPMENT_TEAM = HPWA75Z78H;
 				INFOPLIST_FILE = PushMyNotifs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kickinbahkproductions.PushMyNotifs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kickinbahkproductions.PushMyNotifsFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -624,7 +624,7 @@
 				DEVELOPMENT_TEAM = HPWA75Z78H;
 				INFOPLIST_FILE = PushMyNotifs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kickinbahkproductions.PushMyNotifs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kickinbahkproductions.PushMyNotifsFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -711,6 +711,7 @@
 				EB415E201F02A816003E4C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB415E211F02A816003E4C34 /* Build configuration list for PBXNativeTarget "PushMyNotifsTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +720,7 @@
 				EB415E231F02A816003E4C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB415E241F02A816003E4C34 /* Build configuration list for PBXNativeTarget "PushMyNotifsUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +729,7 @@
 				EB415E261F02A816003E4C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
