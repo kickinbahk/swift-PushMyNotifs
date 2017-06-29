@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
-    FIRApp.configure()
+    FirebaseApp.configure()
     return true
   }
 
@@ -43,6 +44,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
   }
 
+  func connectToFCM() {
+    Messaging.messaging().shouldEstablishDirectChannel = false
+  }
+
 
 }
 
+extension AppDelegate : MessagingDelegate {
+  // [START refresh_token]
+  func messaging(_ messaging: Messaging, didRefreshRegistrationToken fcmToken: String) {
+    print("Firebase registration token: \(fcmToken)")
+  }
+  // [END refresh_token]
+  // [START ios_10_data_message]
+  // Receive data messages on iOS 10+ directly from FCM (bypassing APNs) when the app is in the foreground.
+  // To enable direct data messages, you can set Messaging.messaging().shouldEstablishDirectChannel to true.
+  func messaging(_ messaging: Messaging, didReceive remoteMessage: MessagingRemoteMessage) {
+    print("Received data message: \(remoteMessage.appData)")
+  }
+  // [END ios_10_data_message]
+}
