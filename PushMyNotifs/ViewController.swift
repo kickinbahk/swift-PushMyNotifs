@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    Messaging.messaging().subscribe(toTopic: "/topics/news")
   }
 
   override func didReceiveMemoryWarning() {
