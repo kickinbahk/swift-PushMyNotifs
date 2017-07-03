@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>361768586802-scsq4jarfoc4dmdm7fjf7g246jb31t3c.apps.googleusercontent.com</string>
+	<string>441027697363-ck5uftaqb06sc5onk9ejve9lvubhld4d.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.361768586802-scsq4jarfoc4dmdm7fjf7g246jb31t3c</string>
+	<string>com.googleusercontent.apps.441027697363-ck5uftaqb06sc5onk9ejve9lvubhld4d</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBVBHyO0wwTeMHW0j1tCUGHslRETRhF2Tc</string>
+	<string>AIzaSyDE4HC1IA8FKzD756ND8p2nqP2NX3SAgxo</string>
 	<key>GCM_SENDER_ID</key>
-	<string>361768586802</string>
+	<string>441027697363</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.kickinbahkproductions.PushMyNotifs</string>
+	<string>com.kickinbahkproductions.PushMyNotifsFire</string>
 	<key>PROJECT_ID</key>
-	<string>pushmynotifs-b2069</string>
+	<string>pushmynotifsfire</string>
 	<key>STORAGE_BUCKET</key>
-	<string>pushmynotifs-b2069.appspot.com</string>
+	<string>pushmynotifsfire.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:361768586802:ios:d252a47e16b2de44</string>
+	<string>1:441027697363:ios:b387c5f03c6f1ce9</string>
 	<key>DATABASE_URL</key>
-	<string>https://pushmynotifs-b2069.firebaseio.com</string>
+	<string>https://pushmynotifsfire.firebaseio.com</string>
 </dict>
 </plist>

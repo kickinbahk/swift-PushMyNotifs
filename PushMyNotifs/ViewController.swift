@@ -14,7 +14,8 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
-    Messaging.messaging().subscribe(toTopic: "/topics/news")
+    let token = Messaging.messaging().fcmToken
+    print("From VC FCM token: \(token ?? "No token")")
   }
 
   override func didReceiveMemoryWarning() {
